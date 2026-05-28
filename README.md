@@ -1,16 +1,26 @@
-# React + Vite
+# 🏔️ National Parks Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Work in Progress** — actively being built, expect changes!
 
-Currently, two official plugins are available:
+A fun group trip planning app for national park lovers. Add your crew, mark where you've been, and let the app figure out the best park everyone should visit next — based on location and budget.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ What it does
 
-## React Compiler
+- 🗺️ Interactive USA map showing all US National Parks
+- 👥 Add people (P1, P2, P3...) with their home airports and budget
+- ✅ Track which parks each person has already visited
+- 🔥 Group heatmap — see at a glance what the crew has and hasn't explored
+- ✈️ Recommends the **top 5 unvisited parks** that are cheapest for the whole group to fly to
+- 💾 All data saved locally in your browser — no account needed
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚧 Status
 
-## Expanding the ESLint configuration
+This project is a work in progress. Core features are being added and things may break or change.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Built With
+
+- React + Vite
+- Leaflet / React-Leaflet (maps)
+- NPS Public API (park data)
+- Amadeus API (flight pricing)
+- localStorage (no backend needed)
